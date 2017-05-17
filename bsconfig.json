@@ -3,13 +3,24 @@
   comma. If this screws with your editor highlighting, please tell us by filing
   an issue! */
 {
-  "name" : "reason-react-example",
-  "reason" : { "react-jsx" : true},
-  "bs-dependencies": ["reason-react", "bs-director"],
+  "name": "reason-react-example",
+  "reason": {
+    "react-jsx": true
+  },
+  "bs-dependencies": [
+    "reason-react",
+    "bs-director"
+  ],
   "sources": [
     {
       "dir": "src",
-      "subdirs": ["interop", "logo", "simple", "todomvc"],
+      "subdirs": [
+        "interop",
+        "logo",
+        "simple",
+        "tictactoe",
+        "todomvc"
+      ],
     }
   ],
 }
